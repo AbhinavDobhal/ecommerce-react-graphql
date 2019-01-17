@@ -1,0 +1,20 @@
+{
+  "defaultConnection": "default",
+  "connections": {
+    "default": {
+      "connector": "strapi-hook-bookshelf",
+      "settings": {
+        "client": "mysql",
+        "host": "localhost",
+        "srv": false,
+        "port": "3306",
+        "database": "ecom_react-graphqlDB",
+        "username": "root",
+        "password": "root"
+      },
+      "options": {
+        "ssl": false
+      }
+    }
+  }
+}
