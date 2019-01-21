@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import {BrowserRouter as Router,Switch,Route } from 'react-router-dom';
-import 'antd/dist/antd.css';
-import './index.css';
+
+import 'gestalt/dist/gestalt.css';
+import './components/App.css';
 import App from './components/App';
 import Signin from './components/Signin';
 import Signup from './components/Signup';
